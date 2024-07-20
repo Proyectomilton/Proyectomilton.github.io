@@ -1,0 +1,44 @@
+.character-card {
+    display: inline-block;
+    max-width: 100px !important;
+    max-height: 150px !important;
+    margin: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .character-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .character-image {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s;
+    animation: float 2s infinite ease-in-out;
+    margin-bottom: 10px;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .character-input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

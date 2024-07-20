@@ -1,0 +1,24 @@
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2022/11/15/09/15/bubbles-7593553_1280.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px; /* Increase max-width for more space */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}

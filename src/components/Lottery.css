@@ -1,0 +1,57 @@
+.lottery {
+    text-align: center;
+  }
+  
+  .draw-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .draw-button:hover {
+    background-color: #45a049;
+    transform: scale(1.1);
+  }
+  
+  .winner {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Aquí puedes cambiar el color de la card ganadora */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .winner h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .winner-image {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    animation: float 2s infinite ease-in-out;
+    margin-top: 10px;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .character-input{
+    border: none;
+    width: 100%;
+    text-size-adjust: 50%;
+  }
